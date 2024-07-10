@@ -13,8 +13,8 @@
     z-index: 1000;
     width: 100%;
     padding: 20px;
-    background-color: rgba(230, 110, 110, 0.2); /* Light transparent color */
-    border-radius: 5px;
+    background-color: rgba(163, 140, 140, 0.2); /* Light transparent color */
+    border-radius: 0px 0px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
     0 6px 20px rgba(0, 0, 0, 0.1); /* larger shadow */
     transition: background-color 1s ease;
