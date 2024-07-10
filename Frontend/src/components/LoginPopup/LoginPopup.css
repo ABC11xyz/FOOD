@@ -118,3 +118,11 @@
         width: 100%; /* Full width for smaller screens */
     }
 }
+
+
+@media (max-width: 500px) {
+    .ls-left {
+        width: 100%; /* Full width for smaller screens */
+        height: 35%; /* Adjust height */
+}
+}
