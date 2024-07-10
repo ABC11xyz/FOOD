@@ -3,6 +3,25 @@
     margin-top: 151px;
 }
 
+.empty {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 60px;
+}
+
+.empty img {
+    width: 500px;
+}
+
+.empty p {
+    margin: 10px auto auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 50%;
+    font-size: 17px;
+}
+
 .cart hr {
     height: 1px;
     background-color: #E2E2E2;
@@ -106,4 +125,10 @@
     .cart-promocode{
         justify-content: start;
     }
+}
+
+@media(max-width:750px) {
+   .empty p{
+    width: 90%;
+   }
 }
