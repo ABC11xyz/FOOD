@@ -46,6 +46,17 @@
     border-radius: 8px;
     font-size: 14px;
     animation: fadeIn 0.5s;
+     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 99, 71, 0.2),   /* Light tomato shadow */
+    0 6px 20px rgba(255, 69, 0, 0.2),   /* Darker tomato shadow */
+    0 8px 30px rgba(255, 160, 122, 0.2); /* Lighter shadow for contrast */
+transition: box-shadow 0.3s ease;
+}
+
+.login-popup-container:hover {
+    box-shadow: 0 8px 16px rgba(255, 99, 71, 0.4), 
+    0 12px 40px rgba(255, 69, 0, 0.4),
+    0 16px 60px rgba(255, 160, 122, 0.4);
 }
 
 .login-popup-title {
