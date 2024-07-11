@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
             <img src={assets.logo} alt="" />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p>Welcome to Tomato.com, the premier destination for delicious, freshly prepared meals delivered right to your doorstep. Our mission is to bring the joy of gourmet dining into the comfort of your home with just a few clicks. We offer a diverse menu that caters to all tastes and dietary preferences, featuring high-quality ingredients sourced from trusted local providers. With an emphasis on convenience, affordability, and exceptional customer service, Tomato.com is dedicated to transforming the way you experience food. Bon appétit!</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -16,12 +16,12 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-content-center">
-            <h2>COMPANY</h2>
+            <h2>Owner-ABESEC STUDENT</h2>
             <ul>
                 <li>Home</li>
                 <li>About us</li>
-                <li>Delivery</li>
                 <li>Privacy policy</li>
+                
             </ul>
         </div>
         <div className="footer-content-right">
