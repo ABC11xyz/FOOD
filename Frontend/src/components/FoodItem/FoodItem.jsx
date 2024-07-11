@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react'
 import './FoodItem.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../Context/StoreContext';
+import {motion} from 'framer-motion'
+import { fadeIn } from '../../Variants'
 
 const FoodItem = ({ image, name, price, desc , id }) => {
 
@@ -9,7 +11,13 @@ const FoodItem = ({ image, name, price, desc , id }) => {
     const {cartItems,addToCart,removeFromCart,url,currency} = useContext(StoreContext);
 
     return (
-        <div className='food-item'>
+        <motion.div
+         variants={fadeIn('up' , 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once:false , amount : 0.7}}
+            
+            className='food-item'>
             <div className='food-item-img-container'>
                 <img className='food-item-image' src={url+"/images/"+image} alt="" />
                 {!cartItems[id]
@@ -28,7 +36,7 @@ const FoodItem = ({ image, name, price, desc , id }) => {
                 <p className="food-item-desc">{desc}</p>
                 <p className="food-item-price">{currency}{price}</p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
