@@ -16,8 +16,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-content-center">
-            <h2>OWENED BY -@
-              <a href="https://abes.ac.in/">ABESEC</a> STUDENT</h2>
+            <h2>OWENED BY -----</h2>
             <ul>
                 <li>Home</li>
                 <li>About us</li>
