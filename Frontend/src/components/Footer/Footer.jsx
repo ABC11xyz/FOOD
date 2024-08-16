@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-content-center">
-            <h2>OWENED BY -----</h2>
+            <h2>OWENED BY -- Check Later</h2>
             <ul>
                 <li>Home</li>
                 <li>About us</li>
